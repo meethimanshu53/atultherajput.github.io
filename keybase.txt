@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/atultherajput
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://atultherajput.github.io
+  * I am atultherajput (https://keybase.io/atultherajput) on keybase.
+  * I have a public key with fingerprint CE9E 78E1 EB57 4DB2 887B  56DA E5E8 F848 7920 EEE4
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101a4ae858538d29ebae34367f0c80def78663543d9f7fcf0dc17fc1d729aca11470a",
+      "fingerprint": "ce9e78e1eb574db2887b56dae5e8f8487920eee4",
+      "host": "keybase.io",
+      "key_id": "e5e8f8487920eee4",
+      "kid": "0101a4ae858538d29ebae34367f0c80def78663543d9f7fcf0dc17fc1d729aca11470a",
+      "uid": "19c6c4372267cc0c0a28aa7834d35f19",
+      "username": "atultherajput"
+    },
+    "service": {
+      "hostname": "atultherajput.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1505217792,
+  "expire_in": 157680000,
+  "prev": "e4565ca63bfcd3ec79f4e39a3fba726bc4cc5ed020c3555749a5f3cf045b86c8",
+  "seqno": 26,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.73
+Comment: https://keybase.io/crypto
+
+yMIuAnicrVJdSBVBGF3TjCQlLJDSelgkzUT3b/bnGiSFFZIVRQ9Bdp2dnb13vXb3
+tnevv5kopCaVaD+IpqloWVn2ElqZaKlUUhYEQgQ9KEZZYARREdWs1ZuPzcvHzJzv
+fOecmdHocCoqbEPFrsmcriutYRMjPSHqYP9TqoxWTa2EdpXRPrxQcIGGg7bbZ2i0
+i2ZYhoUCxDKQAS9rnIJViHmBFyWdQTKjYV2SRZEHAq8puqQjndEQSyqrSZwCEWRZ
+QWIgnUrrht+DrYBl+G1Ci7CCJRmzWAWSoKmcLEsqEDWIAZZ1WZAlhWMwxgJp9JpB
+p4OIU2EQpxkmOSMb94K8RfD/WXdogY5VkIgEXuI4UUKIQQzkZAglmRc0Huis4gCD
+2PLDI5igoR0qsL3YgvmBkE2Xp9LkqtBA2EnXsbMYLM1j2N6Q+sdfwDJtE5kFBOS1
+7UDQ5ZDYJQGnqwir7r98btXwayRX0lGIraBh+mkXS5DINpwBLGAAx0okm1QaFwcM
+C7sNBwEkUWbIcubgQidFAYgAQZFXdaTxGEmKLmBegbyuQokTVSQgBLDGcAziASAv
+pkCg8yQzAaiyiGTacXjUb9IuTiQ6oYdwBg2Pnxi0MF3+YPhQBBUWRUUuXeJ8OCpq
++cp/37CmZNlPV+73m2MDtZk1ffkfms8nJU9l9X+da9z3vBx+2Tz9pCivKis+/u6l
+jfWx6+53Nc1UDgeo7K2NP5pEnxFqjYhr/ry6OXdn3eVrKPJjXv0rcc3wiDl8pi7n
+VEZpyqY7V2+f64jLGxg/1344uzVirPNdbfaVjCQrUQN73G0FVfODK/1vLk4/Lrue
+kNzwrJRKyWzalugyWvPaTsadbVkxWD3Tmxx97N7rRK57IAFGqdv32r7u4pjqEzs+
+JY0PeSc6XqzqHW3oqahkB8eV9lt9Lekxc/equt8y6bEXyvYfrwz/Vflyy6p9N7Lf
+754eejTVdyDWE/dwNnrtvG/2G7V+8rR2N2Ws8zfmYUmS
+=HZhC
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/atultherajput
+
+==================================================================
