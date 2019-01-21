@@ -5,52 +5,56 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>Atul Krishna Website</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-		<link rel="icon" type="image/ico" href="assets/css/images/favicon.ico">
-	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
 
-				<!-- Header -->
-					<header id="header">
-						<h2 style="font-size: 50px;">Hello, World.</h2>
-						<h1>I'm Atul Krishna.</h1>
-						<p style="font-size: 40px;">Eat &nbsp;&bull;&nbsp; Code &nbsp;&bull;&nbsp; Sleep</p>
-						<nav>
-							<ul>
-								<li><a href="https://twitter.com/atultherajput" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://www.facebook.com/atultherajput" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="https://www.linkedin.com/in/atultherajput/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
-								<li><a href="https://github.com/atultherajput/" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://keybase.io/atultherajput" class="icon fa-key"><span class="label">Keybase</span></a></li>
-								<li><a href="mailto:atultherajput@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-								<li><a href="blog/" class="icon fa-rss"><span class="label">Blog</span></a></li>
-							</ul>
-						</nav>
-					</header>
+<head>
+	<title>Atul Krishna Website</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<link rel="icon" type="image/ico" href="assets/css/images/favicon.ico">
+</head>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; 2018 atultherajput</span>
-					</footer>
+<body class="loading">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay"></div>
+		<div id="main">
 
-			</div>
+			<!-- Header -->
+			<header id="header">
+				<h2 style="font-size: 50px;">Hello, World.</h2>
+				<h1>I'm Atul Krishna.</h1>
+				<p style="font-size: 40px;">Eat &nbsp;&bull;&nbsp; Code &nbsp;&bull;&nbsp; Sleep</p>
+				<nav>
+					<ul>
+						<li><a href="https://twitter.com/atultherajput" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/atultherajput" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.linkedin.com/in/atultherajput/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://github.com/atultherajput/" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://keybase.io/atultherajput" class="icon fa-key"><span class="label">Keybase</span></a></li>
+						<li><a href="mailto:atultherajput@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="blog/" class="icon fa-rss"><span class="label">Blog</span></a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<span class="copyright"></span>
+			</footer>
+
 		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+	</div>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+	<script>
+		document.getElementById("footer").childNodes[1].innerHTML = '&copy; ' + new Date().getFullYear() + ' atultherajput';
+		window.onload = function () { document.body.className = ''; }
+		window.ontouchmove = function () { return false; }
+		window.onorientationchange = function () { document.body.scrollTop = 0; }
+	</script>
+</body>
+
 </html>
