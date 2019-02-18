@@ -9,7 +9,7 @@
 <body>
   <video id="preview"></video>
   <script type="text/javascript">
-    let scanner = new Instascan.Scanner({ video: document.getElementById('preview'), mirror: false });
+    let scanner = new Instascan.Scanner({ video: document.getElementById('preview'), backgroundScan: true, continuous: true, mirror: false, advanced: [{ torch: true }] });
     scanner.addListener('scan', content => {
       console.log(content);
       alert(content);
