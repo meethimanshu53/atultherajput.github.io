@@ -3,9 +3,10 @@ QrScanner.WORKER_PATH = './qr-scanner-worker.min.js';
 
 const videoElem = document.getElementById('preview');
 const qrScanner = new QrScanner(videoElem, result => console.log('decoded qr code:', result));
-QrScanner.scanImage(image)
-    .then(result => console.log(result))
-    .catch(error => console.log(error || 'No QR code found.'));
-qrScanner.setGrayscaleWeights(red, green, blue, useIntegerApproximation = true);
-qrScanner.destroy();
-qrScanner = null;
+qrScanner.start();
+//qrScanner.setGrayscaleWeights(red, green, blue, useIntegerApproximation = true);
+
+function stop() {
+    qrScanner.destroy();
+    qrScanner = null;
+}
